@@ -23,6 +23,7 @@ namespace Tetris
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }
