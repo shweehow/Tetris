@@ -1,4 +1,4 @@
-﻿namespace Tetris
+﻿namespace Tetris.Block
 {
     public class JBlock : Block
     {
@@ -11,7 +11,7 @@
         };
 
         public override int Id => 2;
-        protected override Position StartOffset => new Position(0,3);
+        protected override Position StartOffset => new Position(0, 3);
         protected override Position[][] Tiles => tiles;
     }
 }

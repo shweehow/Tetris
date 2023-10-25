@@ -1,7 +1,4 @@
-﻿using System.Diagnostics.Eventing.Reader;
-using System.Reflection;
-
-namespace Tetris
+﻿namespace Tetris
 {
     public class GameGrid
     {
