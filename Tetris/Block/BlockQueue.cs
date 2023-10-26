@@ -2,7 +2,7 @@
 
 namespace Tetris.Block
 {
-    internal class BlockQueue
+    public class BlockQueue
     {
         private readonly Block[] blocks = new Block[]
         {
@@ -19,7 +19,7 @@ namespace Tetris.Block
 
         public Block NextBlock { get; private set; }
 
-        private BlockQueue()
+        public BlockQueue()
         {
             NextBlock = RandomBlock();
         }
